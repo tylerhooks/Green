@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Greensoft</title>
+    <title>Contact Us | Nova</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
@@ -19,7 +19,7 @@
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
     <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="images/ico/favicon.png">
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
@@ -28,7 +28,7 @@
 
 <body>
 
-    <!--Header-->
+     <!--Header-->
     <header class="navbar navbar-fixed-top">
         <div class="navbar-inner">
             <div class="container-fluidi">
@@ -58,139 +58,56 @@
     <!-- IE in quirks mode -->
 
     <!-- /header -->
-<section class="main-info">
-    <div class="container-fluid center">
+    
+    <section id="contact-page" class="container">
         <div class="row-fluid">
-            <div>
-            <h2> Welcome to GreenSoft </h2> 
-                <h4>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</h4>
-                <p class="no-margin">Tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet.Tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet. Tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet.Tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet.Tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet. Tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet.</p>
-            </div>
-           
-        </div>
-    </div>
-</section>
 
-<!--Services-->
-<section id="services">
-    <div class="container">
-        <div class="center gap">
-          <h3>Benefits of Marcher</h3>
-          <p class="lead">Create engery efficent projects with Marcher</p>
-        </div>
+            <div class="span8">
+                <h4>Contact Form</h4>
+                <div class="status alert alert-success" style="display: none"></div>
 
-        <div class="row-fluid">
-            <div class="span4">
-                <div class="media">
-                    <div class="pull-left">
-                        <i class="icon-globe icon-medium"></i>
+                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+                  <div class="row-fluid">
+                    <div class="span5">
+                        <label>First Name</label>
+                        <input type="text" class="input-block-level" required="required" placeholder="Your First Name">
+                        <label>Last Name</label>
+                        <input type="text" class="input-block-level" required="required" placeholder="Your Last Name">
+                        <label>Email Address</label>
+                        <input type="text" class="input-block-level" required="required" placeholder="Your email address">
                     </div>
-                    <div class="media-body">
-                      <h4 class="media-heading">Domination </h4>
-                      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                  </div>
+                    <div class="span7">
+                        <label>Message</label>
+                        <textarea name="message" id="message" required class="input-block-level" rows="8"></textarea>
+                    </div>
+
                 </div>
-            </div>            
+                <button type="submit" class="btn btn-primary btn-large pull-right">Send Message</button>
+                <p> </p>
 
-            <div class="span4">
-                <div class="media">
-                    <div class="pull-left">
-                        <i class="icon-thumbs-up-alt icon-medium"></i>
-                    </div>
-                    <div class="media-body">
-                      <h4 class="media-heading">Results</h4>
-                      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    </div>
-                </div>
-            </div>            
-
-            <div class="span4">
-                <div class="media">
-                    <div class="pull-left">
-                        <i class="icon-leaf icon-medium icon-rounded"></i>
-                    </div>
-                    <div class="media-body">
-                      <h4 class="media-heading">Efficency</h4>
-                      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    </div>
-                </div>
-            </div>
+            </form>
         </div>
 
-        <div class="gap"></div>
+        <div class="span3">
+            <h4>Our Address</h4>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <p>
+                <i class="icon-map-marker pull-left"></i> 1209 Willow Oaks Lane, New York<br>
+                Lafayette, 1212,  United States
+            </p>
+            <p>
+                <i class="icon-envelope"></i> &nbsp;email@example.com
+            </p>
+            <p>
+                <i class="icon-phone"></i> &nbsp;+123 45 67 89
+            </p>
+            <p>
+                <i class="icon-globe"></i> &nbsp;http://www.shapebootstrap.net
+            </p>
+        </div>
 
-  </div>
-</section>
-<!--/Services-->
-
-<section id="recent-works">
-  <div class="container">
-        <div class="center">
-            <h3>How it Works</h3>
-            <p class="lead">A short video guide to navigating and creating projects in Greencode</p>
-        
-    <div class="gap"></div>
-        
-        
-      <iframe width="420" height="315" src="https://www.youtube.com/embed/B5QTdjO27S0" frameborder="0" allowfullscreen></iframe>
-        </div>  
-            
     </div>
 
-</section>
-
-
-
-
-
-
-
-<section id="clients" class="main">
-    <div class="container">
-        <div class="row-fluid">
-            <div class="span2">
-                <div class="clearfix">
-                    <h4 class="pull-left">Latest News</h4>
-                    <div class="pull-right">
-                        <a class="prev" href="#myCarousel" data-slide="prev"><i class="icon-angle-left icon-large"></i></a> <a class="next" href="#myCarousel" data-slide="next"><i class="icon-angle-right icon-large"></i></a>
-                    </div>
-                </div>
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-            </div>
-            <div class="span10">
-                <div id="myCarousel" class="carousel slide clients">
-                  <!-- Carousel items -->
-                  <div class="carousel-inner">
-                    <div class="active item">
-                        <div class="row-fluid">
-                            <ul class="thumbnails">
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client1.png" alt="client"></a>
-                                <p> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                                </li>
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client2.png" alt="client"></a><p> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></li>
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client3.png" alt="client"></a><p> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></li>
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client4.png" alt="client"></a><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="row-fluid">
-                            <ul class="thumbnails">
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client4.png" alt="client"></a><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></li>
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client3.png" alt="client"></a><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></li>
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client2.png" alt="client"></a><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></li>
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client1.png" alt="client"></a><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- /Carousel items -->
-
-            </div>
-        </div>
-    </div>
-</div>
 </section>
 
 <!--Bottom-->
@@ -259,11 +176,6 @@
             </div>
             <!--End Archives-->
 
-            <div class="span3">
-                
-            
-
-        </div>
 
     </div>
     <!--/row-fluid-->
@@ -343,6 +255,7 @@ $(function() {
     Page.init();
 });
 </script>
-<!-- /SL Slider -->
+<!-- /SL Slider -->  
+
 </body>
 </html>
